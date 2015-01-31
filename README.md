@@ -3,7 +3,7 @@ Create QR Code is an application that allows user to create QR Codes for any tex
 
 This application uses https://api.qrserver.com webapplication to generate QR Codes and to fetch those QR Codes.
 
-Requirements for the app:-
+## Requirements for the app:-
 
 1. The app should start with a screen displaying a list, the list will be used to display QR codes. 
 2. The list items will have the QR code image on the left, and the data stored inside the QR code on the right. 
@@ -15,7 +15,7 @@ Requirements for the app:-
 7. User should be able to create a QR code by supplying their own data.
 
 
-Libraries Used in this Application:-
+## Libraries Used in this Application:-
 
 1. AppCompat
 2. RecyclerView
