@@ -16,6 +16,7 @@ Requirements for the app:-
 
 
 Libraries Used in this Application:-
+
 1. AppCompat
 2. RecyclerView
 3. Picasso
