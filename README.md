@@ -11,7 +11,7 @@ This application uses https://api.qrserver.com webapplication to generate QR Cod
     https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=Bikrant  
 4. A timer will be used to add a new QR code to the list, with an interval set to fire every 10 seconds.
 5. When the timer fires, retrieve a QR code image from the remote server using random text, and thus create a new list item.
-6. [Not Complete, Will be doing on Jan 31, 2015] Clicking on a QR code list item, should allow user to update or delete the QR code. Which would refresh the respective QR code the user changed.
+6. Clicking on a QR code list item, should allow user to update or delete the QR code. Which would refresh the respective QR code the user changed.
 7. User should be able to create a QR code by supplying their own data.
 
 
@@ -22,3 +22,4 @@ This application uses https://api.qrserver.com webapplication to generate QR Cod
 3. Picasso
 4. FloatingActionButton
 5. DividerDecoration
+6. TwoWayView (ClickItemTouchListener & ItemClickSupport class were used for implementing OnItemClickListener in RecyclerView)
