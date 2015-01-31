@@ -1,7 +1,5 @@
 package com.techassignment.createqrcode.model;
 
-import android.util.Log;
-
 import java.io.Serializable;
 import java.math.BigInteger;
 import java.security.SecureRandom;
@@ -64,17 +62,13 @@ public class QRCode implements Serializable {
         String str = new BigInteger(130, random).toString(32);
 
         QRCode randomQRCode = new QRCode(str, QR_CODE_URL + str);
-
-        Log.i("QRCode Model", String.format("New Random Text: %s generated", randomQRCode.getData()));
-
+//        Log.i("QRCode Model", String.format("New Random Text: %s generated", randomQRCode.getData()));
         return randomQRCode;
     }
 
     public static QRCode createNewQRCode(String data) {
         QRCode newQRCode = new QRCode(data, QR_CODE_URL + data);
-
-        Log.i("QRCode Model", String.format("New Random Text: %s generated", newQRCode.getData()));
-
+//        Log.i("QRCode Model", String.format("New Random Text: %s generated", newQRCode.getData()));
         return newQRCode;
     }
 
